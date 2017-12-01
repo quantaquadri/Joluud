@@ -39,12 +39,7 @@ body {
 	padding-top: 80px;
 }
 
-.special_description_img1{
-	padding-top: 50px;
-	padding-bottom: 50px;
-	margin-left: 100px;
-	
-}
+
 
 .navbar-nav0{
 	padding-bottom: 50px;
@@ -52,26 +47,66 @@ body {
 
 
 
-.display-5 {
-    padding-top: 50px;
-	font-size:3.5rem;
-    font-weight: 300;
-    line-height: 1.2;
-    color: #000;
-	margin-right: 100px;
+
+
+/*  User Description Layer */
+
+
+.special_description_img1{
+	/*padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: 100px;*/
 	
 }
 
 
-.navbar-nav1{
-	padding-top: 50px;	
+.display-5 {
+    padding-top: 50px;
+	font-size:2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #000;
+	
+	
+}
 
+
+
+/* The Four Essentials*/
+
+.btn-secondary3 {
+    color: #000;
+    background-color: #01ff8a;
+	height: 48px;
+	font-weight: 500;
+	min-width: 185px;
+	
 }
 
 .special_description_img2{
 	
-	margin-left: 200px;
 	padding-bottom: 50px;
+}
+
+.navbar-nav1{
+	padding-top: 30px;	
+	padding-bottom: 20px;
+
+}
+
+
+/* How Joluud Makes Your Life Easier*/
+
+.jumbotron1{
+	background-color: #0176ff;
+	height: 33em;
+    border-radius: 0;	
+	color: #fff;
+}
+
+.text-center{
+	padding-bottom:50px;
+	padding-top:50px;
 }
 
 .single-feature > i {
@@ -108,11 +143,34 @@ body {
     content: "\e69d";
 }
 
-.jumbotron1{
-	background-color: #0176ff;
+
+
+/* Before the Footer*/
+
+.jumbotron2{
+	padding-top: 80px;
 	height: 26em;
     border-radius: 0;	
 }
+
+.facili1{
+	padding-top: 20px;
+		
+}
+
+.btn-secondary1 {
+    color: #000;
+    background-color: #01ff8a;
+	height: 48px;
+	font-weight: 500;
+	min-width: 185px;
+	
+}
+
+
+
+
+/*Footer*/
 
 
 body{
@@ -121,7 +179,9 @@ body{
 
 footer{
      background-color: #33383c;
-     padding:70px 0px;
+     padding-right: 80px;
+	 padding-top: 80px;
+	 padding-bottom: 80px;
 }	       
 
 .logo{
@@ -163,6 +223,24 @@ footer{
 }
 
 .menu{
-	 padding-top:70px;
+	 padding-top:120px;
 	 
 }
+
+.social{
+	 padding-top:120px;
+	 
+}
+
+.adress{
+	 
+	 
+}
+
+.site-header__logo{
+	padding-left: 35px;
+	padding-bottom: 40px;
+}
+
+
+	
