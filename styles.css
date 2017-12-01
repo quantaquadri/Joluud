@@ -1,22 +1,86 @@
-/* Move down content because we have a fixed navbar that is 3.5rem tall */
-body {
-  padding-top: 3.5rem;
+/* --------------------------
+:: CSS Code Author: Abdulquadri Sotomiwa 
+:: My Very First Landing Page Full Coding
+:: Created: 01/12/2017
+-------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import 'css/themify-icons.css';
+@import 'css/font-awesome.min.css';
+
+/* --------------------------
+:: 1.0 Base CSS Start
+-------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+	
+	/* Move down content because we have a fixed navbar that is 3.5rem tall */
+	
+	padding-top: 3.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.2;
+}
+
+
+
+/* --------------------------
+:: 2.0 NavBar
+-------------------------- */
+
+.site-header__logo1{
+	padding-left: 105px;
+	
+}
+
+
+/* --------------------------
+:: 3.0 Header Banner
+-------------------------- */
+
+.special_description_img{
+	padding-top: 60px;
+}
+
+.display-6{
+	color: #fff;
+	font-size: 15px;
+	
+}
+
+
 
 .btn-primary {
     color: #000;
     background-color: #01ff8a;
-    border-color: none;
-	margin-top: 10px;
-	line-height:1;
+	height: 48px;
+	font-weight: 500;
+	min-width: 185px;
 	
 }
 .btn-primary1 {
-    color: #000;
+    
+	color: #000;
     background-color: #01ff8a;
-    border-color: none;
-	margin-top: 10px;
-	line-height:1;
+	height: 48px;
+	font-weight: 500;
+	min-width: 185px;
 	
 }
 
@@ -44,7 +108,6 @@ body {
 .navbar-nav0{
 	padding-bottom: 50px;
 }
-
 
 
 
@@ -110,7 +173,7 @@ body {
 }
 
 .single-feature > i {
-    color: #fb397d;
+    color: #01ff8a;
     font-size: 30px;
     display: inline-block;
     float: left;
@@ -199,6 +262,7 @@ footer{
    text-transform: uppercase;
    font-size: 13px;
    letter-spacing: 3px;
+   padding-left: 40px;
 }
  
 .adress li p , .menu li a , .social li a{
@@ -206,6 +270,7 @@ footer{
     letter-spacing: 2px;
     text-decoration:none;
     font-size:12px;
+	padding-left: 40px;
 }
 
 .social li{
